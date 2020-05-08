@@ -1,0 +1,87 @@
+body{
+    background-color: #ffe2e2;
+    display: grid;
+    justify-content: center;
+}
+
+.timer{
+    margin-top: 50%;
+    height: 525px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 1fr;
+    gap: 15px;
+}
+#title{
+    text-align: center;
+}
+#title-text{
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+#setDuration{
+     background-color: #ffc7c7;
+     color: #000000;
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     font-size: 2em;
+     font-family: 'Oswald', sans-serif;
+     border: black;
+     border-style: solid;
+     border-width: 4px;
+}
+#session{
+    grid-column: 1/4;
+    place-self: center;
+}
+#break{
+    grid-column: 4/7;
+    place-self: center;
+}
+#playAndPausePomodoro{
+    background-color: #ffc7c7;
+    border: black;
+    border-style: solid;
+    border-width: 4px;
+    display: grid;
+}
+
+.decreaseOrIncreaseTime{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+}
+#sessionDuration , #breakDuration{
+    place-self: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#timerCircle{
+    height: 196px;
+    width: 196px;
+    place-self: center;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 4px;
+    display: grid;
+    place-content: center;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#options{
+    background-color: #ffc7c7;
+    border: solid;
+    border-width: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#play , #pause, #restart, #stop{
+    outline: none;
+    background-color: #ffc7c7;
+    border: none;
+}
+
