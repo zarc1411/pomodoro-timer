@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="site.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+</head>
+
+<body>
+    <div class="timer">
+        <div id="title"><span id="title-text">Pomodoro Clock</span></div>
+        <div id="setDuration">
+            <span id="session">Session</span>
+            <span id="break">Break</span>
+            <button class="decreaseOrIncreaseTime"><i class="fa fa-chevron-down fa-sm"></i></button>
+            <span id="sessionDuration">25</span>
+            <button class="decreaseOrIncreaseTime"><i class="fa fa-chevron-up"></i></button>
+            <button class="decreaseOrIncreaseTime"><i class="fa fa-chevron-down fa-sm"></i></button>
+            <span id="breakDuration">5</span>
+            <button class="decreaseOrIncreaseTime"><i class="fa fa-chevron-up"></i></button>
+        </div>
+        <div id="playAndPausePomodoro">
+            <div id="timerCircle"><span>25:00</span></div>
+        </div>
+        <div id="options">
+            <button id="play"><i class="fa fa-play playIcon fa-2x"></i></button>
+            <button id="restart"><i class="fa fa-repeat fa-2x"></i></button>
+            <button id="pause"><i class="fa fa-pause fa-2x"></i></button>
+            <button id="stop"><i class="fa fa-stop fa-2x"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>
