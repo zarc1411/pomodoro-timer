@@ -48,7 +48,7 @@ body{
     display: grid;
 }
 
-.decreaseOrIncreaseTime{
+#decreaseSessionTime , #increaseSessionTime , #decreaseBreakTime , #increaseBreakTime{
     background-color: inherit;
     border: none;
     outline: none;
